@@ -1,0 +1,20 @@
+#include<stydio.h>
+void swap(int *x,int *y)
+{
+    int temo;
+    /*save the value which is at address x
+    temp=*x;
+    /* put the value of y into x */
+    *x=*y;
+    /* put temp into y*/
+    *y = temp;
+}
+
+int main()
+ {
+     int a=34,b=74;
+     printf("%d and %d \n",a,b);
+     swap(&a,&b);
+
+     return 0;
+ }
